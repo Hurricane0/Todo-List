@@ -47,7 +47,7 @@ function App() {
           <span onClick={toggleModal} className="aboutAuthorButton">
             Project Card
           </span>
-          <Mode toggleMode={toggleMode} mode={mode} />
+          <Mode toggleMode={toggleMode} mode={mode} modal={modal} />
         </div>
         <div className="wrapper">
           <h1>Todo List</h1>

@@ -11,6 +11,7 @@
   transition: 0.5s;
   transition: opacity 0.5s ease-in-out;
   transition: all 150ms ease-in-out;
+  z-index: 5;
 }
 .dark .modal {
   background: rgba(53, 53, 53, 0.5);

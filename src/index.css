@@ -65,11 +65,11 @@ code {
 }
 .aboutAuthorButton {
   margin-bottom: 3px;
-  opacity: 50%;
   cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
 }
 .dark .aboutAuthorButton {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
 }
 .mode {
   border: none;
@@ -99,10 +99,15 @@ code {
 @media screen and (max-width: 450px) {
   .wrapper {
     width: 300px;
+    padding-top: 0;
+  }
+  .wrapper h1 {
+    margin: 5px;
   }
 }
 @media screen and (max-width: 600px) and (min-width: 451px) {
   .wrapper {
     width: 450px;
+    padding-top: 0;
   }
 }

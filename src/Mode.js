@@ -1,7 +1,7 @@
 import React from "react";
 import "./Mode.css";
 
-let Mode = ({ toggleMode, mode }) => {
+let Mode = ({ toggleMode, mode, modal }) => {
   return (
     <div className="switch_box box_3">
       <div className="toggle_switch">
@@ -10,6 +10,7 @@ let Mode = ({ toggleMode, mode }) => {
           className="switch_3"
           onChange={toggleMode}
           checked={mode}
+          disabled={modal}
         />
         <svg
           className="checkbox"
