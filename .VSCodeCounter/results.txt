@@ -1,0 +1,48 @@
+Date : 2020-01-12 11:52:08
+Directory : c:\Users\user\Programming\Projects\todo_list
+Total : 16 files,  14835 codes, 37 comments, 113 blanks, all 14985 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          2 |     14,155 |          0 |          2 |     14,157 |
+| JavaScript |          9 |        352 |         34 |         53 |        439 |
+| CSS        |          3 |        274 |          3 |         24 |        301 |
+| Markdown   |          1 |         37 |          0 |         32 |         69 |
+| HTML       |          1 |         17 |          0 |          2 |         19 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                 |         16 |     14,835 |         37 |        113 |     14,985 |
+| public                                                            |          1 |         17 |          0 |          2 |         19 |
+| src                                                               |         12 |        626 |         37 |         77 |        740 |
+| src\Modal                                                         |          2 |         60 |          0 |          6 |         66 |
+| src\todo                                                          |          3 |        108 |          0 |         15 |        123 |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                          | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\user\Programming\Projects\todo_list\README.md            | Markdown   |         37 |          0 |         32 |         69 |
+| c:\Users\user\Programming\Projects\todo_list\package-lock.json    | JSON       |     14,115 |          0 |          1 |     14,116 |
+| c:\Users\user\Programming\Projects\todo_list\package.json         | JSON       |         40 |          0 |          1 |         41 |
+| c:\Users\user\Programming\Projects\todo_list\public\index.html    | HTML       |         17 |          0 |          2 |         19 |
+| c:\Users\user\Programming\Projects\todo_list\src\App.js           | JavaScript |         74 |          0 |         12 |         86 |
+| c:\Users\user\Programming\Projects\todo_list\src\Modal\Modal.css  | CSS        |         36 |          0 |          2 |         38 |
+| c:\Users\user\Programming\Projects\todo_list\src\Modal\Modal.js   | JavaScript |         24 |          0 |          4 |         28 |
+| c:\Users\user\Programming\Projects\todo_list\src\Mode.css         | CSS        |        110 |          3 |         14 |        127 |
+| c:\Users\user\Programming\Projects\todo_list\src\Mode.js          | JavaScript |         42 |          0 |          3 |         45 |
+| c:\Users\user\Programming\Projects\todo_list\src\context.js       | JavaScript |          3 |          0 |          3 |          6 |
+| c:\Users\user\Programming\Projects\todo_list\src\index.css        | CSS        |        128 |          0 |          8 |        136 |
+| c:\Users\user\Programming\Projects\todo_list\src\index.js         | JavaScript |          7 |          3 |          3 |         13 |
+| c:\Users\user\Programming\Projects\todo_list\src\serviceWorker.js | JavaScript |         94 |         31 |         13 |        138 |
+| c:\Users\user\Programming\Projects\todo_list\src\todo\AddTodo.js  | JavaScript |         29 |          0 |          6 |         35 |
+| c:\Users\user\Programming\Projects\todo_list\src\todo\TodoItem.js | JavaScript |         53 |          0 |          6 |         59 |
+| c:\Users\user\Programming\Projects\todo_list\src\todo\TodoList.js | JavaScript |         26 |          0 |          3 |         29 |
+| Total                                                             |            |     14,835 |         37 |        113 |     14,985 |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+

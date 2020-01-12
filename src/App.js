@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TodoList from "./todo/TodoList";
 import Context from "./context";
 import AddTodo from "./todo/AddTodo";
@@ -8,6 +8,15 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [mode, setMode] = useState(true);
   const [modal, setModal] = useState(false);
+
+  useEffect(() => {
+    const raw = localStorage.getItem("todos");
+    setTodos(JSON.parse(raw));
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("todos", JSON.stringify(todos));
+  }, [todos]);
 
   const toggleCompleted = id => {
     setTodos(
@@ -49,6 +58,7 @@ function App() {
           </span>
           <Mode toggleMode={toggleMode} mode={mode} modal={modal} />
         </div>
+
         <div className="wrapper">
           <h1>Todo List</h1>
           {modal && <Modal closeModal={closeModal} />}
